@@ -1,3 +1,3 @@
-# WS
+# Work Space
 
--when you whih
+-프로젝트에 대한 것들
