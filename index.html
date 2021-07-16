@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Work Space</title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <h1><a href="index.html">Work Space</a></h1>
+    <script>
+      var today = new Date();
+      var end = new Date(2021, 7, 30);
+
+      var diffDate = end.getTime() - today.getTime();
+      var result = Math.ceil(diffDate/(1000*60*60*24));
+
+      document.write("<h1>프로젝트 완료까지 D-" + result + "</h1>");
+    </script>
+
+    <strong>
+      <ol>
+        <li><a href="part.html">역할</a></li>
+        <li><a href="service.html">서비스 구현 기능</a></li>
+        <li><a href="Alpha_Space.html">시범 운영 공간</a></li>
+      </ol>
+    </strong>
+    <!--내용 입력-->
+    
+    <ul>
+      <h2>※브랜드</h2>
+
+      <h3>브랜드 이념</h3>
+      <ol>
+        <li>장기목표 성취</li>
+        <li>자각성</li>
+        <li>연동성</li>
+      </ol>
+      <br>
+      <h3>타겟</h3>
+      <ul><li>학생, 직장인 등등...</li></ul>
+      <br>
+      <h3>브랜드 이미지</h3>
+      <ul><li>//null</li></ul>
+      <br>
+      <h3>브랜드 로고</h3>
+      <ul><li>//null</li></ul>
+    </ul>
+
+  </body>
+</html>
